@@ -1,9 +1,15 @@
-module.exports.greetingEnglish = function() {
+exports.greetingEnglish = function() {
   console.log("Hello");
 }
 
-module.exports.greetingJapanese = function() {
+exports.greetingJapanese = function() {
   console.log("Konichiwa");
 }
 
-exports = "Hola";
+exports.greetingSpanish = function() {
+  console.log("Hola");
+}
+
+exports.greetingIcelandic = function() {
+  console.log("Halló");
+}
